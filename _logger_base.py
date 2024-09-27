@@ -7,7 +7,6 @@ import threading
 import re
 from datetime import datetime, timezone
 
-
 class UDPMultiCastReceiver(UDPReceiver):
     def __init__(
         self, group, port, *, bind_ip="", callback=None, user_data=None, plugin=None
